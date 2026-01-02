@@ -1,1 +1,1 @@
-print("hello,"""" i will be "Master in PYTHON""")
+print("""hello, i will be master in PYTHON""")
