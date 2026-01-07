@@ -44,7 +44,7 @@ def info():
     📌 Job Use: HR payroll systems"""
 n=int(input("do you want to know about the program just click 1 otherwise press any number:"))
 if n==1:
-    info(info.__doc__)
+    print(info.__doc__)
 dev_name=input("enter the developer name:")
 dev_base_salary=int(input("enter the base salary of the developer:"))
 dev_bouns=int(input("enter the bouns of the developer:"))
