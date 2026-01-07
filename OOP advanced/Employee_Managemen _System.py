@@ -23,26 +23,39 @@ class Manager(Employee):
     def calculate_salary(self):
         return self.base_salary + self.bonus + self.allowance
 
-dev = Developer("satyam", 50000, 10000)
-mgr = Manager("anmol", 70000, 15000, 8000)
 
+def info():
+    """1️⃣ Inheritance – Employee Management System
+
+    Concept: Inheritance, method overriding
+
+    Problem:
+    Create a base class Employee with:
+    name
+    base_salary
+    method calculate_salary()
+
+    Create child classes:
+
+    Developer → salary = base + bonus
+
+    Manager → salary = base + bonus + allowance
+
+    📌 Job Use: HR payroll systems"""
+n=int(input("do you want to know about the program just click 1 otherwise press any number:"))
+if n==1:
+    info(info.__doc__)
+dev_name=input("enter the developer name:")
+dev_base_salary=int(input("enter the base salary of the developer:"))
+dev_bouns=int(input("enter the bouns of the developer:"))
+print("\n")
+mgr_name=input("enter the manager  name:")
+mgr_base_salary=int(input("enter the base salary of the manager:"))
+mgr_bouns=int(input("enter the bouns of the manager:"))
+mgr_allowance=int(input("enter the allowance of the manager:"))
+
+dev = Developer(dev_name, dev_base_salary, dev_bouns)
+mgr = Manager(mgr_name, mgr_base_salary, mgr_bouns, mgr_allowance)
 print(f"Developer Salary: {dev.calculate_salary()}")
 print(f"Manager Salary: {mgr.calculate_salary()}")
 
-"""1️⃣ Inheritance – Employee Management System
-
-Concept: Inheritance, method overriding
-
-Problem:
-Create a base class Employee with:
-name
-base_salary
-method calculate_salary()
-
-Create child classes:
-
-Developer → salary = base + bonus
-
-Manager → salary = base + bonus + allowance
-
-📌 Job Use: HR payroll systems"""
