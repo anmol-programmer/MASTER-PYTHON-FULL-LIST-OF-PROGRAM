@@ -1,0 +1,139 @@
+🧱 1️⃣ Core System & OS Interaction
+
+Used for automation, malware analysis, exploits
+
+os
+sys
+subprocess
+platform
+shutil
+pathlib
+time
+datetime
+getpass
+argparse
+
+🌐 2️⃣ Networking & Communication
+
+Used for port scanning, backdoors, C2, sniffing
+
+socket ⭐⭐⭐
+ssl
+select
+asyncio
+http.client
+urllib
+ftplib
+telnetlib
+smtplib
+
+🌍 3️⃣ Web Security & HTTP Testing
+
+Used for API testing, web attacks, scraping
+
+requests ⭐⭐⭐
+beautifulsoup4
+lxml
+mechanize
+selenium
+aiohttp
+
+🔍 4️⃣ Scanning, Enumeration & Packet Analysis
+
+Used in recon, MITM, packet crafting
+
+scapy ⭐⭐⭐⭐
+python-nmap
+pyshark
+dpkt
+impacket ⭐⭐⭐⭐
+
+🔑 5️⃣ Cryptography, Hashing & Passwords
+
+Used for encryption, cracking, integrity
+
+hashlib ⭐⭐⭐
+hmac
+base64
+bcrypt
+passlib
+cryptography
+pycryptodome
+
+🧪 6️⃣ Malware Analysis & Reverse Engineering
+
+Used in red teaming & analysis
+
+pefile
+capstone
+lief
+yara
+frida
+ctypes
+struct
+
+📂 7️⃣ File, Log & Memory Analysis
+
+Used in forensics, SOC, detection
+
+re ⭐⭐⭐
+json
+csv
+pickle
+logging
+gzip
+zipfile
+tarfile
+
+🧠 8️⃣ Exploit Development & Low-Level
+
+Used for advanced exploitation
+
+pwntools ⭐⭐⭐⭐
+ropgadget
+keystone-engine
+unicorn
+angr
+
+🤖 9️⃣ Automation, Bots & Monitoring
+
+Used for brute force, monitoring, alerts
+
+schedule
+threading
+multiprocessing
+concurrent.futures
+apscheduler
+
+📊 🔟 Data Analysis (SOC / Blue Team)
+
+Used in SIEM, log correlation
+
+pandas
+numpy
+matplotlib
+seaborn
+
+☁️ 1️⃣1️⃣ Cloud & Container Security
+
+Used in cloud pentesting
+
+boto3 (AWS)
+azure-identity
+google-cloud
+docker
+kubernetes
+
+🎯 1️⃣2️⃣ MOST IMPORTANT (Must-Memorize for Exams)
+⭐⭐⭐⭐⭐ Core Cybersecurity Modules
+
+os
+sys
+socket
+requests
+hashlib
+re
+subprocess
+scapy
+pwntools
+impacket
